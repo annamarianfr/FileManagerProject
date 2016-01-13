@@ -21,13 +21,14 @@ namespace FileManager
         {
             InitializeComponent();
             //used for testing in order to avoid long time loading
-            //PopulateTreeView(Environment.GetFolderPath(Environment.SpecialFolder.Desktop));
-            DriveInfo[] allDrives = DriveInfo.GetDrives();
-            foreach (DriveInfo d in allDrives)
-            {
-                if (d.IsReady)
-                    PopulateTreeView(d.Name);
-            }
+            PopulateTreeView(Environment.GetFolderPath(Environment.SpecialFolder.Desktop));
+            //Gets all folders and files from the computer
+            //DriveInfo[] allDrives = DriveInfo.GetDrives();
+            //foreach (DriveInfo d in allDrives)
+            //{
+            //    if (d.IsReady)
+            //        PopulateTreeView(d.Name);
+            //}
         }
 
         private void Form1_Load(object sender, EventArgs e)

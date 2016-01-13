@@ -8,3 +8,6 @@ D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileMan
 D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileManager\obj\Debug\FileManager.pdb
 D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileManager\obj\Debug\FileManager.SplashScreen.resources
 D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileManager\obj\Debug\FileManager.FileManager.resources
+D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileManagerProject\FileManager\bin\Debug\FileManager.exe.config
+D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileManagerProject\FileManager\obj\Debug\FileManager.exe
+D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileManagerProject\FileManager\obj\Debug\FileManager.pdb
