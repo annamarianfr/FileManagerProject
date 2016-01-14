@@ -44,12 +44,14 @@
             this.smallIconsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tileViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemCheckBoxesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.listView1 = new System.Windows.Forms.ListView();
             this.secondaryMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copyToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.cutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pasteToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
@@ -64,18 +66,12 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.itemCheckBoxesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mainMenu.SuspendLayout();
             this.secondaryMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainMenu
             // 
-            this.mainMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuToolStripMenuItem,
-            this.editToolStripMenuItem,
-            this.viewToolStripMenuItem});
             this.mainMenu.Location = new System.Drawing.Point(0, 0);
             this.mainMenu.Name = "mainMenu";
             this.mainMenu.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
@@ -154,36 +150,43 @@
             this.tileViewToolStripMenuItem,
             this.itemCheckBoxesToolStripMenuItem});
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            this.viewToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.viewToolStripMenuItem.Text = "View";
             // 
             // largeIconsToolStripMenuItem
             // 
             this.largeIconsToolStripMenuItem.Name = "largeIconsToolStripMenuItem";
-            this.largeIconsToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.largeIconsToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.largeIconsToolStripMenuItem.Text = "Large Icons";
             this.largeIconsToolStripMenuItem.Click += new System.EventHandler(this.largeIconsToolStripMenuItem_Click);
             // 
             // smallIconsToolStripMenuItem
             // 
             this.smallIconsToolStripMenuItem.Name = "smallIconsToolStripMenuItem";
-            this.smallIconsToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.smallIconsToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.smallIconsToolStripMenuItem.Text = "Small Icons";
             this.smallIconsToolStripMenuItem.Click += new System.EventHandler(this.smallIconsToolStripMenuItem_Click);
             // 
             // listViewToolStripMenuItem
             // 
             this.listViewToolStripMenuItem.Name = "listViewToolStripMenuItem";
-            this.listViewToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.listViewToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.listViewToolStripMenuItem.Text = "List View";
             this.listViewToolStripMenuItem.Click += new System.EventHandler(this.listViewToolStripMenuItem_Click);
             // 
             // tileViewToolStripMenuItem
             // 
             this.tileViewToolStripMenuItem.Name = "tileViewToolStripMenuItem";
-            this.tileViewToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.tileViewToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.tileViewToolStripMenuItem.Text = "Tile View";
             this.tileViewToolStripMenuItem.Click += new System.EventHandler(this.tileViewToolStripMenuItem_Click);
+            // 
+            // itemCheckBoxesToolStripMenuItem
+            // 
+            this.itemCheckBoxesToolStripMenuItem.Name = "itemCheckBoxesToolStripMenuItem";
+            this.itemCheckBoxesToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.itemCheckBoxesToolStripMenuItem.Text = "Check Boxes";
+            this.itemCheckBoxesToolStripMenuItem.Click += new System.EventHandler(this.itemCheckBoxesToolStripMenuItem_Click);
             // 
             // label1
             // 
@@ -253,7 +256,14 @@
             this.pasteToolStripMenuItem2,
             this.deleteToolStripMenuItem1});
             this.secondaryMenu.Name = "contextMenuStrip1";
-            this.secondaryMenu.Size = new System.Drawing.Size(153, 136);
+            this.secondaryMenu.Size = new System.Drawing.Size(108, 114);
+            // 
+            // openToolStripMenuItem
+            // 
+            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.openToolStripMenuItem.Text = "Open";
+            this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // copyToolStripMenuItem1
             // 
@@ -324,7 +334,6 @@
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Location = new System.Drawing.Point(405, 25);
             this.button7.Name = "button7";
@@ -336,7 +345,6 @@
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Location = new System.Drawing.Point(829, 25);
             this.button6.Name = "button6";
@@ -348,7 +356,6 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Location = new System.Drawing.Point(513, 25);
             this.button5.Name = "button5";
@@ -360,7 +367,6 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Location = new System.Drawing.Point(459, 25);
             this.button4.Name = "button4";
@@ -372,7 +378,6 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Location = new System.Drawing.Point(351, 24);
             this.button3.Name = "button3";
@@ -384,7 +389,6 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(297, 25);
             this.button2.Name = "button2";
@@ -396,7 +400,6 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(243, 25);
             this.button1.Name = "button1";
@@ -404,20 +407,6 @@
             this.button1.TabIndex = 8;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // itemCheckBoxesToolStripMenuItem
-            // 
-            this.itemCheckBoxesToolStripMenuItem.Name = "itemCheckBoxesToolStripMenuItem";
-            this.itemCheckBoxesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.itemCheckBoxesToolStripMenuItem.Text = "Check Boxes";
-            this.itemCheckBoxesToolStripMenuItem.Click += new System.EventHandler(this.itemCheckBoxesToolStripMenuItem_Click);
-            // 
-            // openToolStripMenuItem
-            // 
-            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.openToolStripMenuItem.Text = "Open";
-            this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // FileManager
             // 

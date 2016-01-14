@@ -40,19 +40,19 @@ namespace FileManager
         /// <returns>An array of subdirectories</returns>
         public DirectoryInfo[] AccessDirectories()
         {
-            //try
-            //{
+            try
+            {
             //if (Operations.CheckFolderPermissions(directory.FullName, FileSystemRights.Read))     
-            if (!directory.Attributes.ToString().Contains("NotContentIndexed"))
-                if (Operations.CheckFolderPermissions(directory.FullName, FileSystemRights.FullControl))
-                    if (directory.Name != "System Volume Information")
+            //if (!directory.Attributes.ToString().Contains("NotContentIndexed"))
+            //    if (Operations.CheckFolderPermissions(directory.FullName, FileSystemRights.FullControl))
+            //        if (directory.Name != "System Volume Information")
                         return directory.GetDirectories();
-            return null;
-            //}
-            //catch (UnauthorizedAccessException)
-            //{
-            //    return null;
-            //}
+            //return null;
+            }
+            catch (UnauthorizedAccessException)
+            {
+                return null;
+            }
         }
         /// <summary>
         /// Gets files in a directory avoiding the restricted ones
