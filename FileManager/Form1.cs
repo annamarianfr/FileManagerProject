@@ -270,7 +270,7 @@ namespace FileManager
         private void PasteCommand()
         {
             
-            if (Operations.copyPaths.Count == 0 || Operations.copyPaths==null)
+            if (Operations.copyPaths.Count == 0)
                 MessageBox.Show("No files to paste!");
             else
                 if (Directory.Exists(comboBox1.Text))

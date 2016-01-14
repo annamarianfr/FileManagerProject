@@ -93,27 +93,6 @@
   <ItemGroup>
     <None Include="Resources\giphy1.gif" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\arrow_up_icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\copy_icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cross_icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Editing-Cut-Filled-icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\home_icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\paste_icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\research_icon.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,0 +1,10 @@
+D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileManagerProject\FileManager\bin\Release\FileManager.exe.config
+D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileManagerProject\FileManager\bin\Release\FileManager.exe
+D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileManagerProject\FileManager\bin\Release\FileManager.pdb
+D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileManagerProject\FileManager\obj\Release\FileManager.csprojResolveAssemblyReference.cache
+D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileManagerProject\FileManager\obj\Release\FileManager.FileManager.resources
+D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileManagerProject\FileManager\obj\Release\FileManager.Properties.Resources.resources
+D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileManagerProject\FileManager\obj\Release\FileManager.SplashScreen.resources
+D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileManagerProject\FileManager\obj\Release\FileManager.csproj.GenerateResource.Cache
+D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileManagerProject\FileManager\obj\Release\FileManager.exe
+D:\Ana-Maria\Documents\Documents\Visual Studio 2013\Projects\FileManager\FileManagerProject\FileManager\obj\Release\FileManager.pdb
